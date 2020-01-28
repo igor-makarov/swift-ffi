@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.11.3)
+    memory_profiler (0.9.14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ffi (~> 1.11)
+  memory_profiler (~> 0.9.14)
+
+BUNDLED WITH
+   1.17.3
