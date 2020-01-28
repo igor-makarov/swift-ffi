@@ -1,9 +1,5 @@
 import Foundation
 
-private func convert(_ value: UnsafePointer<CChar>) -> UnsafePointer<CChar> {
-    return value
-}
-
 @_cdecl("swift_ffi_print")
 public func FFIPrint(_ cString: UnsafePointer<CChar>) {
     let converted = String(cString: cString)
